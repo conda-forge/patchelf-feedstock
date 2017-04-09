@@ -7,10 +7,10 @@ package:
 source:
   fn: patchelf-{{ version }}.tar.gz
   url: http://nixos.org/releases/patchelf/patchelf-{{ version }}/patchelf-{{ version }}.tar.gz
-  md5: 3c265508526760f233620f35d79c79fc
+  sha256sum: f2aa40a6148cb3b0ca807a1bf836b081793e55ec9e5540a5356d800132be7e0a
 
 build:
-  number: 1
+  number: 2
   skip: true  # [not linux]
 
 test:
