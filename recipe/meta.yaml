@@ -1,13 +1,12 @@
-{% set version = "0.11" %}
+{% set version = "0.12" %}
 
 package:
   name: patchelf
   version: {{ version }}
 
 source:
-  fn: patchelf-{{ version }}.tar.gz
-  url: http://nixos.org/releases/patchelf/patchelf-{{ version }}/patchelf-{{ version }}.tar.gz
-  sha256: e52378cc2f9379c6e84a04ac100a3589145533a7b0cd26ef23c79dfd8a9038f9
+  url: https://github.com/NixOS/patchelf/releases/download/{{ version }}/patchelf-{{ version }}.tar.bz2
+  sha256: 699a31cf52211cf5ad6e35a8801eb637bc7f3c43117140426400d67b7babd792
 
 build:
   number: 0
@@ -38,4 +37,6 @@ about:
 extra:
   recipe-maintainers:
     - jakirkham
+    - leofang
     - mjuric
+    - xhochy
