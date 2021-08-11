@@ -157,5 +157,7 @@ Feedstock Maintainers
 =====================
 
 * [@jakirkham](https://github.com/jakirkham/)
+* [@leofang](https://github.com/leofang/)
 * [@mjuric](https://github.com/mjuric/)
+* [@xhochy](https://github.com/xhochy/)
 
