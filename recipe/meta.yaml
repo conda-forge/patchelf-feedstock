@@ -1,4 +1,4 @@
-{% set version = "0.14.2" %}
+{% set version = "0.14.3" %}
 
 package:
   name: patchelf
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/NixOS/patchelf/releases/download/{{ version }}/patchelf-{{ version }}.tar.bz2
-  sha256: 08bfea52ccf3e4e8b3dc5a6844bcecdde8e7d0a006160aec422d9af9c19e6079
+  sha256: a017ec3d2152a19fd969c0d87b3f8b43e32a66e4ffabdc8767a56062b9aec270
 
 build:
   number: 0
