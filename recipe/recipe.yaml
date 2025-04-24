@@ -23,7 +23,7 @@ requirements:
     - ${{ compiler('cxx') }}
     - ${{ stdlib('c') }}
     - make
-    - automake
+    - automake 1.16.*
     - gnuconfig
 
 tests:
