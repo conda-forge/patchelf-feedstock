@@ -86,14 +86,14 @@ Current release info
 Installing patchelf
 ===================
 
-Installing `patchelf` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `patchelf` from the `conda-forge/label/patchelf_dev` channel can be achieved by adding `conda-forge/label/patchelf_dev` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/patchelf_dev
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `patchelf` can be installed with `conda`:
+Once the `conda-forge/label/patchelf_dev` channel has been enabled, `patchelf` can be installed with `conda`:
 
 ```
 conda install patchelf
@@ -108,26 +108,26 @@ mamba install patchelf
 It is possible to list all of the versions of `patchelf` available on your platform with `conda`:
 
 ```
-conda search patchelf --channel conda-forge
+conda search patchelf --channel conda-forge/label/patchelf_dev
 ```
 
 or with `mamba`:
 
 ```
-mamba search patchelf --channel conda-forge
+mamba search patchelf --channel conda-forge/label/patchelf_dev
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search patchelf --channel conda-forge
+mamba repoquery search patchelf --channel conda-forge/label/patchelf_dev
 
 # List packages depending on `patchelf`:
-mamba repoquery whoneeds patchelf --channel conda-forge
+mamba repoquery whoneeds patchelf --channel conda-forge/label/patchelf_dev
 
 # List dependencies of `patchelf`:
-mamba repoquery depends patchelf --channel conda-forge
+mamba repoquery depends patchelf --channel conda-forge/label/patchelf_dev
 ```
 
 
