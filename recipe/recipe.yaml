@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.19.1"
+  version: "0.19.2"
 
 package:
   name: patchelf
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/NixOS/patchelf/releases/download/${{ version }}/patchelf-${{ version }}.tar.bz2
-  sha256: 2cce01de93653829f6ab68a20c2ec275e1c00a946110704a27e928d2e6e88716
+  sha256: d4ad9a4e5c689e09119ce2f30a94b0e8b4f98c78590123ea21665e34c6928801
 
 build:
-  number: 1
+  number: 0
   skip: win
   dynamic_linking:
     binary_relocation: false
